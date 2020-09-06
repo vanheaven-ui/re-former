@@ -22,6 +22,18 @@
 <% end %> -->
 
 <%= form_for(@user) do |f |%>
+  <% if @user.errors.any? %>
+    <div>
+      <h2>
+        <%= pluralize(@user.errors.count, 'error') %>
+        below prohibited this user from being saved
+      </h2>
+    </div>
+    <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
   <%= f.label 'username:' %>
   <%= f.text_field :username, placeholder: 'Your username here' %><br><br>
   <%= f.label 'email:' %>
