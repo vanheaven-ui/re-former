@@ -1,0 +1,11 @@
+<h1>Edit a User</h1>
+
+<%= form_for(@user) do |f |%>
+  <%= f.label 'username:' %>
+  <%= f.text_field :username, placeholder: 'Your username here' %><br><br>
+  <%= f.label 'email:' %>
+  <%= f.text_field :email, placeholder: 'example@example.com' %><br><br>
+  <%= f.label 'password:' %>
+  <%= f.text_field :password, placeholder: 'Enter your password' %><br><br>
+  <%= f.submit %>
+<% end %>
