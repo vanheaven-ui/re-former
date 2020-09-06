@@ -9,6 +9,11 @@ This project involves creating a web application form for creating a new user an
 [![Twitter Follow](https://img.shields.io/badge/Twitter-Ezekiel-%231DA1F2)](https://twitter.com/MworekwaE)
 [![LinkedIn follow](https://img.shields.io/badge/LinkedIn-Ezekiel-%232867B2)](https://www.linkedin.com/in/vanheaven/)
 
+## Screenshot
+
+Below is a screen of the built form 
+
+<img src='/app/assets/images/screenshot.png' alt='Rails_form'>
 
 ## Content
 
