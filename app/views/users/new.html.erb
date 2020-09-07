@@ -12,13 +12,13 @@
 </form> -->
 
 <!-- <%= form_tag('users_path') do %>
-  <%= label_tag(:username, 'Username:') %>
-  <%= text_field_tag(:email) %><br><br>
-  <%= label_tag(:email, 'Email:') %>
-  <%= email_field_tag(:email) %><br><br>
-  <%= label_tag(:password, 'Password:') %>
-  <%= password_field_tag(:password) %><br><br>
-  <%= submit_tag('Create User') %>
+  <%= label_tag 'Username' %>
+  <%= text_field_tag 'username' %><br><br>
+  <%= label_tag 'Email' %>
+  <%= email_field_tag 'email' %><br><br>
+  <%= label_tag 'Password' %>
+  <%= password_field_tag 'password' %><br><br>
+  <%= submit_tag 'Create User' %>
 <% end %> -->
 
 <%= render partial: 'form' %>
