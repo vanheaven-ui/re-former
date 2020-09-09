@@ -54,6 +54,7 @@ Once you have a local copy of the entire project on your computer, then:
 ### 💥 Form <a name = "run"></a>
 With the installations complete, the form is ready to display in the browser
 
+- Change directory to one where the repository was cloned 
 - Run ``rails s`` or ``rails server`` to start the server that will load the form in the default browser.
 - Type ``http://localhost:3000/users/new`` in a new tab in the browser.
 - Try to create a user without entering any fields. Well, the form will scream at you.
