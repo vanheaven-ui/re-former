@@ -55,7 +55,7 @@ Once you have a local copy of the entire project on your computer, then:
 With the installations complete, the form is ready to display in the browser
 
 - Run ``rails s`` or ``rails server`` to start the server that will load the form in the default browser.
-- Type ``http://localhost:3000/users`` in a new tab in the browser.
+- Type ``http://localhost:3000/users/new`` in a new tab in the browser.
 - Try to create a user without entering any fields. Well, the form will scream at you.
 - Try to create a user with all fields entered and the form is your friend.
 - Try to edit an existing user by changing the url in the browser to ``http://localhost:3000/users/1/edit``.
