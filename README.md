@@ -90,6 +90,6 @@ And your reward awaits in heaven.
 Give a ⭐️ if you like this project!
 
 ## :clap: Acknowledgements
-[The Oding project Guide:](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)<br />
+[The Odin project Guide:](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)<br />
 [Microverse guide:](https://microverse.pathwright.com/library/fast-track-curriculum/69047/path/step/49722535)
 
